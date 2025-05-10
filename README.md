@@ -1,2 +1,2 @@
-# 2020ff
-Make your own 2020 Fantasy Football Team!
+# Football Team DIY
+Make your own football team!
