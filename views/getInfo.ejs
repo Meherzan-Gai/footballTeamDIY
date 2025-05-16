@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Get Info</title>
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+  <h1>NFL Info</h1>
+
+  <form action="/teams" method="get">
+    <button type="submit">Get Teams</button>
+  </form>
+
+  <form action="/players" method="get">
+    <button type="submit">Get Players</button>
+  </form>
+
+  <form action="/player/search" method="get">
+    <input type="text" name="search" placeholder="Search player name" />
+    <button type="submit">Search Player</button>
+  </form>
+
+  <form action="/team/search" method="get">
+    <input type="text" name="search" placeholder="Search team name" />
+    <button type="submit">Search Team</button>
+  </form>
+  <hr>
+  <a href="/">HOME</a>
+
+
+  <hr>
+
+  <% if (result) { %>
+    <h2>Result</h2>
+    <pre><%= JSON.stringify(result, null, 2) %></pre>
+  <% } %>
+
+  <% if (error) { %>
+    <h2 style="color:red;"><%= error %></h2>
+  <% } %>
+</body>
+</html>

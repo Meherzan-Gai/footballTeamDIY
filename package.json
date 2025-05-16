@@ -1,0 +1,18 @@
+{
+  "name": "footballteamdiy",
+  "version": "1.0.0",
+  "description": "Make your own football team!",
+  "main": "teamPlayerAPI.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@balldontlie/sdk": "^1.2.2",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0"
+  }
+}

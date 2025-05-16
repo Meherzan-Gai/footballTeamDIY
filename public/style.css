@@ -3,7 +3,9 @@ html{
     color:darkblue;
 }
 
-
+hr{
+    border-color: black;
+}
 
 li{
     font-size: 1.2rem;
